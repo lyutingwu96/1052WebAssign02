@@ -32,6 +32,9 @@ footer a:visited{
 	width: 50%;
   margin:0 20px;
 }
+a{
+  text-decoration:none;
+}
 footer a{
   color: rgb(48, 45, 43);
 }
@@ -123,4 +126,11 @@ footer{
   right: 20px;
   vertical-align: middle;
   line-height: 2em;
+}
+
+#top_nav{
+  display: inline-block;
+  float:right;
+  right: 0;
+  top: 50px;
 }
