@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="reg.css">
+        <title>注冊頁</title>
+    </head>
+    <body>
+      <div id="content">
+        <header id="header">
+            <h1>[報名表單]</h1>
+
+        </header>
+
+        <form action="https://docs.google.com/forms/d/e/1FAIpQLScM4B6u7nOkNQqUOlSBn7fKXm5cjuno14nyCKRlA4XyjSY9Qg/formResponse" method="POST">
+			<!--label for="name">姓名</label-->
+            <input type="text" name="entry.1339495092" id="name" required="required" size="50" maxlength="10" placeholder="姓名">
+            
+            <!--label for="department">學院</label-->
+            <select name="entry.1944781450" id="department" required>
+                <option value="" selected hidden>請選擇</option>
+                <option value="文學院">文學院 Liberal Arts</option>
+                <option value="社會科學學院">社會科學學院 Social Sciences</option>
+                <option value="商學院">商學院 Commerce</option>
+                <option value="傳播學院">傳播學院 Communication</option>
+                <option value="外國語文學院">外國語文學院 Foreign Languages</option>
+                <option value="法學院">法學院 College of Law</option>
+                <option value="理學院">理學院 Science</option>
+                <option value="國際事務學院">國際事務學院 International Affairs</option>
+                <option value="教育學院">教育學院 Education</option>
+            </select>
+
+
+            <!--label for="telephone">手機</label-->
+            <input type="text" name="entry.795504394" id="telephone" required="required" size="50" pattern="[0-9]{10}" placeholder="手機:0912345678">
+
+            <!--label for="email">Email</label-->
+            <input type="email" name="entry.560282373" id="email" required="required" size="50" placeholder="Email:example@sth.com">
+
+            <!--label for="birth">生日</label-->
+            <input type="date" name="entry.324774019" id="birth" required="required" size="50">
+
+            <input type="hidden" name="entry.189820201" value="103703033">
+
+			<input type="submit" value="註冊">
+        </form>
+
+</div>
+    </body>
+</html>
