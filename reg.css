@@ -1,3 +1,8 @@
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
 body{
 
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#e0ffdd+0,ffe2fe+100 */
@@ -21,24 +26,42 @@ body{
       left:0;
       margin:auto;
 }
+h1{
+  color: #409d91;
+  margin:0 3px;
+}
 input{
   display: block;
+border-radius: 0;
+border-width: thin;
+border-style: solid;
   width:90%;
   height:3em;
   margin:3px;
+  border-color: #79cdaf;
+
 }
 input:valid{
   background-color: #79cdaf;
 }
 input:focus{
-  border-color: #9adfcc;
+  outline-color: #8dd3dd;
 }
 select{
+  padding: 5px 8px;
+    width: 90%;
+    border-radius: 0;
+    border-color: #79cdaf;
+    background-color: #ffffff;
+
+    -webkit-appearance: none;
   margin: 3px;
   display: block;
-  width:90%;
-  padding:4em 0em;
+
 }
 select:valid{
   background-color: #79cdaf;
+}
+select:focus{
+  outline-color: #8dd3dd;
 }
